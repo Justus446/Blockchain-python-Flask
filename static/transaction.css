@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: block;
+    margin: 50px;
+}
+.container h3 {
+    font-size: 28px;
+    color: #2e3c50;
+}
+form label {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.inp {
+    margin-bottom: 15px;
+}
+form input {
+    padding: 5px;
+    width: 20%;
+    outline: none;
+    border: 1px solid #2e3c50;
+    transition: border .4s;
+}
+form input:focus {
+    border: 1px solid skyblue;
+}
+form input:focus ~ label {
+    color: blue;
+}
+.sbmt-btn {
+    text-transform: uppercase;
+    width: 20.8%;
+    padding: 7px;
+    background: #2e3c50;
+    border: none;
+    color: wheat;
+    cursor: pointer;
+    border: 1px solid #2e3c50;
+    transition: .4s;
+}
+.sbmt-btn:hover {
+    color: #2e3c50;
+    background: none;
+}

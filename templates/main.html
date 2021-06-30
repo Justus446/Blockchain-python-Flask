@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vlands</title>
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+        <link href="https://fonts.google.com/">
+        <link href="https://fontawesome.com/icons">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="top-nav-bar">
+                <div class="search-box">
+                    <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+                    <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+                    <div class="logo"><!--<img src="logo.png" class="logo">--><h3>Logo</h3></div>
+                    <input type="text" name="" class="form-control">
+                    <span class="input-group-text"><i class="fa fa-search"></i></span>
+                </div><!--search-box-->
+                <div class="navigation">
+                    <ul>
+                        <li><a href=#> <i class="fa fa-home"></i> Home</a></li>
+                        <li><a href= account><i class="fa fa-user"></i> Account</a></li>
+                        <li><a href= about><i class="fa fa-address-card"></i> About</a></li>
+                        <li><a class="active" href=#><i class="fa fa-rss-square"></i> Blog</a></li>
+                    </ul>
+			</div><!--end navigation-->
+	        </div><!--top-nav-bar-->
+        </nav>
+        <div class="main">
+
+        </div><!--end main-->
+        <div class="paragraph">
+            <p><b> Verified and Undisputed Land using The #1 Land Buying Site.</b></p>
+        </div><!--end paragraph-->
+        
+        <section class="website-features">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 feature-box">
+                    <img src="100.png">
+                    <div class="feature-text">
+                        <p><b>100% Trusted Vendor Items</b> are available</p>
+                    </div><!--end feature-text-->
+                </div><!--End feature-box-->
+
+                <div class="col-md-4 feature-box">
+                    <img src="half.png">
+                    <div class="feature-text">
+                        <p><b>Visits</b> from buyers</p>
+                    </div><!--end feature-text-->
+                </div><!--End feature-box-->
+
+                <div class="col-md-4 feature-box">
+                    <img src="verified.jpeg">
+                    <div class="feature-text">
+                        <p><b>Verified </b> lands</p>
+                    </div><!--end feature-text-->
+                </div><!--End feature-box-->
+            </div><!--End row-->
+        </div><!--End container-->
+    </section><!--End website features-->
+    <div class="containerr">
+        <h2><b>Why Use VLand</b></h2>
+        <ul>
+            <li>Gain insight from property Performance Analysts</li>
+            <li>Get infront of millions of Qualified Sellers</li>
+            <li>Find Land with Less Hustle</li>
+            <li>Get Title Deeds Quicker</li>
+        </ul>
+    </div><!-- end container-->
+
+
+        <script type="text/javascript">
+		function openmenu()
+		{
+			document.getElementById("side-menu").style.display="block";
+			document.getElementById("close-btn").style.display="block";
+			document.getElementById("menu-btn").style.display="none";
+		}
+		function closemenu()
+		{
+			document.getElementById("side-menu").style.display="none";
+			document.getElementById("close-btn").style.display="none";
+			document.getElementById("menu-btn").style.display="block";
+		}
+	</script>
+    </body>
+</html>

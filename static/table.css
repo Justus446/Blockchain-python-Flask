@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: sans-serif;
+    background: #2e3c50;
+    color: #ccc;
+}
+.table {
+    width: 75%;
+}
+.row {
+    line-height: 36px;
+    border: 1px solid #aaa;
+    border-top: none;
+    display: flex;
+}
+.row.first {
+    background: #C6AD8F;
+    color: #2e3c50;
+    font-weight: 600;
+    border: 1px solid #C6AD8F;
+}
+.row span {
+    margin-left: 10px;
+    height: 36px;
+}
+.index {
+    flex: 1;
+    border-right: 1px solid #aaa;
+}
+.timestamp {
+    flex: 4;
+    border-right: 1px solid #aaa;
+}
+.data {
+    flex: 8;
+    border-right: 1px solid #aaa;
+}
+.phash {
+    flex: 4;
+    border-right: 1px solid #aaa;
+}
+.chash {
+    flex: 4;
+}
+.row.first span {
+    border-color: #2e3c50;
+    border-width: 1.5px;
+}
