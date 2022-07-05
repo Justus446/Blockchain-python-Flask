@@ -68,7 +68,7 @@ body{
 
 .box input[type = "submit"]{
     border: 0;
-    background: none;
+    background:#007bff;;
     display: block;
     margin: 20px auto;
     text-align: center;

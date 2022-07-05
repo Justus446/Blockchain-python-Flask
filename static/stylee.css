@@ -1,5 +1,5 @@
 body{
-    background: url("pic1.jpg");
+    background: url("pic4.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -64,7 +64,7 @@ input[type=submit]{
     color: #fff;
     font-size: 16px;
     font-family: Arial;
-    background: #ff267e;
+    background: #007bff ;
     cursor: pointer;
     border-radius: 20px;
 }
