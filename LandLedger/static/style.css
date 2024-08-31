@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Header */
+.jumbotron {
+    background: url('path_to_your_image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+/* Features Section */
+.website-features .feature-box {
+    margin-bottom: 30px;
+}
+
+.feature-box img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.feature-box h4 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+/* Why Use Section */
+.why-use h2 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.why-use ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-use ul li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
